@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		30D0B8402C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B83F2C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift */; };
-		30D0B8422C650C4C003671BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8412C650C4C003671BF /* ContentView.swift */; };
 		30D0B8442C650C4F003671BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D0B8432C650C4F003671BF /* Assets.xcassets */; };
 		30D0B8472C650C4F003671BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D0B8462C650C4F003671BF /* Preview Assets.xcassets */; };
+		30D0B84E2C6513CB003671BF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B84D2C6513CB003671BF /* RootView.swift */; };
+		30D0B8522C6514EF003671BF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8512C6514EF003671BF /* MainView.swift */; };
+		30D0B8542C65150A003671BF /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8532C65150A003671BF /* ResultView.swift */; };
+		30D0B8562C652105003671BF /* OrtaogretimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8552C652105003671BF /* OrtaogretimView.swift */; };
+		30D0B8582C652117003671BF /* OnlisansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8572C652117003671BF /* OnlisansView.swift */; };
+		30D0B85A2C652135003671BF /* LisansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8592C652135003671BF /* LisansView.swift */; };
+		30D0B85C2C652147003671BF /* EgitimbilimleriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B85B2C652147003671BF /* EgitimbilimleriView.swift */; };
+		30D0B85E2C652157003671BF /* OABTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B85D2C652157003671BF /* OABTView.swift */; };
+		30D0B8612C67C751003671BF /* HesaplaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8602C67C751003671BF /* HesaplaButton.swift */; };
+		30D0B8632C6E6E7C003671BF /* SonucView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8622C6E6E7C003671BF /* SonucView.swift */; };
+		30D0B8662C70D54B003671BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8652C70D54B003671BF /* Constants.swift */; };
+		30D0B8692C70D841003671BF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B8682C70D841003671BF /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30D0B83C2C650C4C003671BF /* KPSS Puan Hesaplama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KPSS Puan Hesaplama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D0B83F2C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSS_Puan_HesaplamaApp.swift; sourceTree = "<group>"; };
-		30D0B8412C650C4C003671BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30D0B8432C650C4F003671BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D0B8462C650C4F003671BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30D0B84D2C6513CB003671BF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		30D0B8512C6514EF003671BF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		30D0B8532C65150A003671BF /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		30D0B8552C652105003671BF /* OrtaogretimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrtaogretimView.swift; sourceTree = "<group>"; };
+		30D0B8572C652117003671BF /* OnlisansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlisansView.swift; sourceTree = "<group>"; };
+		30D0B8592C652135003671BF /* LisansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisansView.swift; sourceTree = "<group>"; };
+		30D0B85B2C652147003671BF /* EgitimbilimleriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgitimbilimleriView.swift; sourceTree = "<group>"; };
+		30D0B85D2C652157003671BF /* OABTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OABTView.swift; sourceTree = "<group>"; };
+		30D0B8602C67C751003671BF /* HesaplaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesaplaButton.swift; sourceTree = "<group>"; };
+		30D0B8622C6E6E7C003671BF /* SonucView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucView.swift; sourceTree = "<group>"; };
+		30D0B8652C70D54B003671BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30D0B8682C70D841003671BF /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +73,9 @@
 		30D0B83E2C650C4C003671BF /* KPSS Puan Hesaplama */ = {
 			isa = PBXGroup;
 			children = (
-				30D0B83F2C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift */,
-				30D0B8412C650C4C003671BF /* ContentView.swift */,
-				30D0B8432C650C4F003671BF /* Assets.xcassets */,
+				30D0B8672C70D82F003671BF /* Model */,
+				30D0B84F2C65140A003671BF /* Views */,
+				30D0B8502C651436003671BF /* Resources */,
 				30D0B8452C650C4F003671BF /* Preview Content */,
 			);
 			path = "KPSS Puan Hesaplama";
@@ -65,6 +87,57 @@
 				30D0B8462C650C4F003671BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30D0B84F2C65140A003671BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30D0B8642C70D532003671BF /* Helpers */,
+				30D0B85F2C67BA7A003671BF /* SharedViews */,
+				30D0B84D2C6513CB003671BF /* RootView.swift */,
+				30D0B8512C6514EF003671BF /* MainView.swift */,
+				30D0B8532C65150A003671BF /* ResultView.swift */,
+				30D0B8552C652105003671BF /* OrtaogretimView.swift */,
+				30D0B8572C652117003671BF /* OnlisansView.swift */,
+				30D0B8592C652135003671BF /* LisansView.swift */,
+				30D0B85B2C652147003671BF /* EgitimbilimleriView.swift */,
+				30D0B85D2C652157003671BF /* OABTView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30D0B8502C651436003671BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30D0B83F2C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift */,
+				30D0B8432C650C4F003671BF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30D0B85F2C67BA7A003671BF /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				30D0B8602C67C751003671BF /* HesaplaButton.swift */,
+				30D0B8622C6E6E7C003671BF /* SonucView.swift */,
+			);
+			path = SharedViews;
+			sourceTree = "<group>";
+		};
+		30D0B8642C70D532003671BF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30D0B8652C70D54B003671BF /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		30D0B8672C70D82F003671BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30D0B8682C70D841003671BF /* Result.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,11 +177,11 @@
 			};
 			buildConfigurationList = 30D0B8372C650C4C003671BF /* Build configuration list for PBXProject "KPSS Puan Hesaplama" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = tr;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				tr,
 			);
 			mainGroup = 30D0B8332C650C4C003671BF;
 			productRefGroup = 30D0B83D2C650C4C003671BF /* Products */;
@@ -137,8 +210,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D0B8422C650C4C003671BF /* ContentView.swift in Sources */,
+				30D0B8612C67C751003671BF /* HesaplaButton.swift in Sources */,
+				30D0B8692C70D841003671BF /* Result.swift in Sources */,
+				30D0B85A2C652135003671BF /* LisansView.swift in Sources */,
+				30D0B84E2C6513CB003671BF /* RootView.swift in Sources */,
+				30D0B8562C652105003671BF /* OrtaogretimView.swift in Sources */,
+				30D0B8542C65150A003671BF /* ResultView.swift in Sources */,
+				30D0B8582C652117003671BF /* OnlisansView.swift in Sources */,
+				30D0B8522C6514EF003671BF /* MainView.swift in Sources */,
 				30D0B8402C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift in Sources */,
+				30D0B85C2C652147003671BF /* EgitimbilimleriView.swift in Sources */,
+				30D0B85E2C652157003671BF /* OABTView.swift in Sources */,
+				30D0B8632C6E6E7C003671BF /* SonucView.swift in Sources */,
+				30D0B8662C70D54B003671BF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +359,7 @@
 				DEVELOPMENT_TEAM = 75TSHHWFW3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Puan Hesaplama";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +389,7 @@
 				DEVELOPMENT_TEAM = 75TSHHWFW3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Puan Hesaplama";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
