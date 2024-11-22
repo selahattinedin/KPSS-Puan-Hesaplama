@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3063919B2CEFA1A80096F047 /* OrtaogretimViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063919A2CEFA1A80096F047 /* OrtaogretimViewViewModel.swift */; };
 		30D0B8402C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B83F2C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift */; };
 		30D0B8442C650C4F003671BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D0B8432C650C4F003671BF /* Assets.xcassets */; };
 		30D0B8472C650C4F003671BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D0B8462C650C4F003671BF /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3063919A2CEFA1A80096F047 /* OrtaogretimViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrtaogretimViewViewModel.swift; sourceTree = "<group>"; };
 		30D0B83C2C650C4C003671BF /* KPSS Puan Hesaplama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KPSS Puan Hesaplama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D0B83F2C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSS_Puan_HesaplamaApp.swift; sourceTree = "<group>"; };
 		30D0B8432C650C4F003671BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306391992CEFA1870096F047 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3063919A2CEFA1A80096F047 /* OrtaogretimViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		30D0B8332C650C4C003671BF = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		30D0B83E2C650C4C003671BF /* KPSS Puan Hesaplama */ = {
 			isa = PBXGroup;
 			children = (
+				306391992CEFA1870096F047 /* ViewModels */,
 				30D0B8672C70D82F003671BF /* Model */,
 				30D0B84F2C65140A003671BF /* Views */,
 				30D0B8502C651436003671BF /* Resources */,
@@ -219,6 +230,7 @@
 				30D0B8582C652117003671BF /* OnlisansView.swift in Sources */,
 				30D0B8522C6514EF003671BF /* MainView.swift in Sources */,
 				30D0B8402C650C4C003671BF /* KPSS_Puan_HesaplamaApp.swift in Sources */,
+				3063919B2CEFA1A80096F047 /* OrtaogretimViewViewModel.swift in Sources */,
 				30D0B85C2C652147003671BF /* EgitimbilimleriView.swift in Sources */,
 				30D0B85E2C652157003671BF /* OABTView.swift in Sources */,
 				30D0B8632C6E6E7C003671BF /* SonucView.swift in Sources */,
