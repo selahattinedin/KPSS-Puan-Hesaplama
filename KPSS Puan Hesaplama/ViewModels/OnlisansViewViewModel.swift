@@ -14,6 +14,9 @@ class OnlisansViewViewModel : ObservableObject{
     @Published var gyYanlisSayisi:Double = 0
     @Published var sonuc:Double = 0
     
+    @Published var sonuc2022:Double = 0
+    @Published var sonuc2023: Double = 0
+    
     var isFormInvalid: Bool {
             (gkDogruSayisi + gkYanlisSayisi > 60) || (gyDogruSayisi + gyYanlisSayisi > 60)
         }

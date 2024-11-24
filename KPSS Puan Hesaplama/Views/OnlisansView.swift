@@ -60,19 +60,21 @@ struct OnlisansView: View {
     
     private var sonucSection: some View {
         Section {
-            Text("KPSS Puanı: \(viewModel.sonuc, specifier: "%.3f")")
-                .bold()
-            
-            Button("Hesapla") {
-                withAnimation {
-                    viewModel.hesaplaSonuc()
+                    Text("KPSS Puanı: \(viewModel.sonuc, specifier: "%.3f")")
+                        .bold()
+                    
+                    HesaplaButton(title: "Hesapla") {
+                        withAnimation {
+                            viewModel.hesaplaSonuc()
+                        }
+                    }
+                    .disabled(viewModel.isFormInvalid)
+                    .sensoryFeedback(.selection, trigger: viewModel.sonuc)
+                    
+                } header: {
+                    Text("Sonuç").textCase(.none)
                 }
             }
-            .disabled(viewModel.isFormInvalid)
-        } header: {
-            Text("Sonuç").textCase(.none)
-        }
-    }
 }
 
 
