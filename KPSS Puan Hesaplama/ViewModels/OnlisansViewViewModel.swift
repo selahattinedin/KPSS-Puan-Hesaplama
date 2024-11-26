@@ -8,22 +8,37 @@
 import Foundation
 
 class OnlisansViewViewModel : ObservableObject{
-    @Published var gkDogruSayisi:Double = 40
-    @Published var gkYanlisSayisi:Double = 10
-    @Published var gyDogruSayisi:Double = 30
-    @Published var gyYanlisSayisi:Double = 0
-    @Published var sonuc:Double = 0
     
-    @Published var sonuc2022:Double = 0
-    @Published var sonuc2023: Double = 0
-    
-    var isFormInvalid: Bool {
-            (gkDogruSayisi + gkYanlisSayisi > 60) || (gyDogruSayisi + gyYanlisSayisi > 60)
+        @Published var gkDogruSayisi: Double = 0
+        @Published var gkYanlisSayisi: Double = 0
+        @Published var gyDogruSayisi: Double = 0
+        @Published var gyYanlisSayisi: Double = 0
+        @Published var sonuc: Double = 0
+        
+        var isFormInvalid: Bool {
+            (gkDogruSayisi + gkYanlisSayisi) > 60 ||
+            (gyDogruSayisi + gyYanlisSayisi) > 60
+        }
+        
+       
+        var gkHataMesajiGoster: Bool {
+            gkDogruSayisi + gkYanlisSayisi > 60
+        }
+        
+        var gyHataMesajiGoster: Bool {
+            gyDogruSayisi + gyYanlisSayisi > 60
+        }
+        
+        var hataMesaji: String {
+            "Toplam doğru ve yanlış sayıları 60'ı geçemez."
         }
         
         func hesaplaSonuc() {
-            let gkNet = Double(gkDogruSayisi) - Double(gkYanlisSayisi) / 4.0
-            let gyNet = Double(gyDogruSayisi) - Double(gyYanlisSayisi) / 4.0
-            sonuc = 53.8169 + gyNet * 0.43 + gkNet * 0.397
+            let gkNet = gkDogruSayisi - (gkYanlisSayisi / 4)
+            let gyNet = gyDogruSayisi - (gyYanlisSayisi / 4)
+            
+            sonuc = Constants.onlisansPuan +
+                    (gyNet * Constants.onlisansGYKatsayi) +
+                    (gkNet * Constants.onlisansGKKatsayi)
         }
-}
+    }

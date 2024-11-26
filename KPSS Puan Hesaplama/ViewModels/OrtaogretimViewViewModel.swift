@@ -11,12 +11,12 @@ import SwiftUI
 class OrtaogretimViewModel: ObservableObject {
     @Published var gkDogruSayisi: Double = 40
     @Published var gkYanlisSayisi: Double = 10
-    @Published var gyDogruSayisi: Double = 30
+    @Published var gyDogruSayisi: Double = 40
     @Published var gyYanlisSayisi: Double = 0
     @Published var sonuc: Double = 0
     
     var formKontrol: Bool {
-        (gkDogruSayisi + gkYanlisSayisi) > 60 || (gyDogruSayisi + gyDogruSayisi) > 60
+        (gkDogruSayisi + gkYanlisSayisi) > 60 || (gyYanlisSayisi + gyDogruSayisi) > 60
     }
     
     var gkHataMesaji: Bool {

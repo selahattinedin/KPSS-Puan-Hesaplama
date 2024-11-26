@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftData
 
 struct OrtaogretimView: View {
     @StateObject private var viewModel = OrtaogretimViewModel()
